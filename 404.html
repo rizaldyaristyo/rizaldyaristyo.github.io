@@ -4,5 +4,5 @@
         '/spotify': 'https://open.spotify.com/user/31nepgq4lmxda2h7ccjybggo4mfu?si=d7ef464b7d9b4efb',
         '/instagram': 'https://instagram.com/rizaldyaristyo',
     };
-    const w=window.location,x=w.pathname;y.hasOwnProperty(x)?w.href=y[x]:w.href=y['/'];
+    const w=window.location,x=w.pathname;y.hasOwnProperty(x)?w.replace(y[x]):w.replace(y['/']);
 </script>
